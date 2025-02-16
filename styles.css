@@ -1,0 +1,125 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('images/WhatsApp Image 2025-02-11 at 22.10.38_fb8cc004.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav .nav-menu > li {
+    position: relative;
+}
+
+nav .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav .nav-menu a:hover,
+nav .nav-menu .active > a {
+    color: yellow;
+}
+
+/* Dropdown Menu */
+nav .nav-menu .dropdown {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+}
+
+nav .nav-menu li:hover .dropdown {
+    display: block;
+}
+
+nav .nav-menu .dropdown li {
+    margin: 5px 0;
+}
+
+nav .nav-menu .dropdown a {
+    padding: 5px 10px;
+    display: block;
+    text-align: left;
+}
+
+/* Hero Section */
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 60px; /* Adjust for fixed header */
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: yellow;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: orange;
+    color: white;
+}
