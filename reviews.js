@@ -11,7 +11,7 @@ const reviews = [
       id: 2,
       name: 'Barack Obama',
       job: 'President',
-      img: 'https://media.gettyimages.com/id/75600163/photo/the-36th-annual-naacp-image-awards-portraits.jpg?b=1&s=594x594&w=0&k=20&c=SbkJPZ3_UF9GVzr8bn2nZ0q0mbNtJNJxqYa7NygCFwQ=',
+      img: 'images/obama.jpg',
       text: "Barack Obama is an American politician who served as the 44th president of the United States from 2009 to 2017. Born on August 4, 1961, in Honolulu, Hawaii, he was the first African American to hold the office of the U.S. president. Obama is known for his transformative policies, inspiring speeches, and efforts to promote unity and hope.",
     },
     {
@@ -23,11 +23,11 @@ const reviews = [
     },
     {
       id: 4,
-      name: 'bill anderson',
-      job: 'the boss',
-      img: 'https://www.course-api.com/images/people/person-3.jpeg',
-      text: 'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
-    },
+      name: 'Zonke Dikana',
+      job: 'Song-Writer and Producer',
+      img: 'images/Zonke.webp',
+      text: 'Zonke Dikana, born on October 11, 1979, in KwaZakhele, Port Elizabeth, Eastern Cape, South Africa, is a renowned singer-songwriter and record producer. She is celebrated for her contributions to the South African R&B and Afro-soul genres.  ',
+    }
   ];
   // select items
 const img = document.getElementById('person-img');
